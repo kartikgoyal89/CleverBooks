@@ -1,0 +1,96 @@
+.story-container{
+    background-color: #151218;
+}
+
+.story-container .upper{
+    display: flex;
+    padding: 50px;
+}
+
+.upper .left{
+    width: 50%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.upper .left img{
+    width: 200px;
+    color: white;
+    padding-left: 20px;
+    fill: white !important;
+    stroke: white !important;
+    
+}
+
+.upper .left h1{
+    color: white;
+    padding: 10px 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 35px;
+}
+
+.upper .left button{
+    margin-left: 20px;
+    border: none;
+    background-color: transparent;
+    border: 2px solid #fc907e;
+    color: #fc907e;
+    padding: 10px 30px;
+    border-radius: 20px;
+}
+
+
+.right img{
+    border-radius: 20px;
+    height: 100%;
+    width: 90%;
+}
+
+.story-container-2{
+    padding: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    gap: 50px;
+}
+
+.story-card{
+    width: 30%;
+}
+.story-card img{
+    transition: all 0.2s ease-in-out;
+
+}
+.story-card img:hover{
+    transform: scale(1.02);
+}
+
+.story-card img:first-child{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.story-card img:nth-child(2){
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.story-card a{
+    text-decoration: none;
+    color: #fc907e;
+    font-weight: 600;
+    font-size: 17px;
+}
+.brand-marquee{
+    display: flex;
+    gap: 100px;
+}
+
+.brand-marquee p{
+    color: white;
+    font-size: 30px;
+}

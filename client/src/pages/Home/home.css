@@ -1,0 +1,523 @@
+.home-container{
+    background-color: #0f0136;
+    padding-top: 30px;
+    padding-left: 30px;
+    align-items: center;
+    overflow-x: hidden !important;
+    display: flex;
+    padding-bottom: 30px;
+}
+
+.left-part{
+    width: 50%;
+}
+.left-part h1{
+    color: white;
+    font-size: 59.14px;
+    font-weight: 500;
+}
+.left-part span{
+        background-image: linear-gradient(125deg, #582ad6, #b6e704, #b6e704,#582ad6) !important;
+        background-size: 200% !important;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        -webkit-animation: Gradient 10s ease infinite !important;
+        -moz-animation: Gradient 10s ease infinite !important;
+        animation: Gradient 10s ease infinite !important;
+}
+
+.left-part h5{
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-top: 30px;
+}
+
+.btn-part{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.btn-part img{
+    margin-top: 50px;
+}
+
+.btn-part button{
+    display: inline-block;
+    position: relative;
+    border-radius: 30px;
+    text-decoration: none;
+    background: transparent;
+    transition: all 0.8s;
+    padding: 15px 30px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border: 3px solid #b6e704;
+    color: #b6e704;
+    font-size: 14px;
+    font-weight: 500;
+
+}
+
+.btn-part button:hover{
+    background-color: #b6e704;
+    color: #0f0136;
+    font-weight: 500;
+}
+.right-part{
+    position: relative;
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    overflow: hidden;
+    float: right;
+}
+.right-part img{
+    margin-left: 100px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.right-part img:nth-child(2){
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+
+.home-container{
+    border-bottom-left-radius: 70px;
+    border-bottom-right-radius: 100px;
+}
+
+
+.home-container-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+    
+}
+.home-container-2 .title{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.home-container-2 .cards-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 30px;
+}
+
+.home-container-3{
+    padding: 20px 20px 0 30px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.home-container-3 .left-part{
+    width: 70%;
+}
+
+.home-container-3 .left-part p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.home-container-3 .founder-div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+.founder-div .founder-details{
+    display: flex;
+}
+.founder-div .founder-details img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.founder-div .founder-details .details{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.founder-div .founder-details .details h4{
+    font-size: 20px;
+    
+}
+
+
+.home-container-3 .right-part{
+    height: 500px !important;
+    width: 500px !important;
+}
+
+
+.home-container-3 .right-part img{
+    border: 2px solid #9f6eed;;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+    object-position: -325px !important;
+    border-radius: 20px;
+}
+.home-container-3 .btn-part{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 40px;
+    gap: 50px;
+}
+.home-container-3 .btn-part .btn{
+    background: #dcd0fc;
+    padding: 10px 30px;
+    margin-top: 40px;    
+    height: max-content !important;
+}
+
+.home-container-3 .btn-part .btn h1{
+    font-size: 30px;
+    background-image: linear-gradient(125deg, #582ad6, #b6e704 ,#582ad6, #b6e704) !important;
+    background-size: 200% !important;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: Gradient 10s ease infinite !important;
+    -moz-animation: Gradient 10s ease infinite !important;
+    animation: Gradient 10s ease infinite !important;
+}
+
+.home-container-3 .btn-part .btn p{
+    font-size: 18px;
+}
+
+
+.home-container-3 .btn-part .button{
+    padding: 10px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-container-3 .btn-part .button p{
+    margin-bottom: 0;
+}
+
+.home-container-4{
+    padding: 20px 30px;
+    display: flex;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.home-container-4 .left-part{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.home-container-4 .title{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.accordion__button{
+    font-size: 20px !important;
+    color: black !important;
+}
+
+.accordion__heading .accordion__button{
+    background-image: linear-gradient(142deg,#582ad6, #b6e704) !important;
+    border: 1px solid #f2f2f2 !important;
+}
+.title-4{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.home-container-4 .right-part{
+    background-image: linear-gradient(142deg, #b6e704, #582ad6);
+    padding: 20px;
+    border-radius: 20px;
+    height: 520px;
+}
+
+.home-container-4 .right-part .img {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start
+}
+
+.btn-4{
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-4 button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 2px solid #582ad6;
+    background: transparent;
+    color: #582ad6;
+    font-size: 600;
+    
+}
+
+
+.home-container-5{
+    background-color: #f2f2f2;
+    padding: 40px 30px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.slick-slider{
+    overflow-y: hidden;
+}
+
+@media (max-width: 1086px){
+    .home-container{
+        flex-direction: column;
+        padding: 10px 20px;
+        padding-top: 40px;
+    }
+    .home-container .left-part{
+        width: 100%;
+    }
+    .home-container .left-part h5{
+        padding-right: 20px;
+    }
+    .home-container .right-part{
+        float: right;
+        position: relative !important;
+    }
+    .home-container .right-part img{
+        right: 0px;
+        float: right;
+    }
+    .home-container .right-part img:nth-child(2){
+        position: absolute;
+        width: 95%;
+    }
+
+    .home-container-2 .cards-container{
+        display: flex;
+        flex-wrap: wrap !important;
+    }
+
+    .home-container-2 h1.title{
+        text-wrap: wrap;
+        padding: 10px 20px;
+        text-align: center;
+    }
+
+    .home-container-3{
+        flex-direction: column;
+    }
+    .home-container-3 .left-part{
+        order: 2;
+        width: 100%;
+        padding: 10px 30px;
+        margin-top: 30px;
+    }
+
+    .home-container-3 .right-part{
+        width: 100% !important;
+    }
+    .home-container-3 .right-part img{
+        width: 90%;
+        object-position: center !important;
+        margin: auto !important;
+    }
+    .home-container-3 .btn-part{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .home-container-3 .samosa-party{
+        display: none;
+    }
+
+    .home-container-4{
+        flex-direction: column;
+    }
+    .home-container-4 .left-part{
+        width: 100%;
+        order: 2;
+    }
+    .home-container-4 .accordion{
+        width: 100% !important;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .home-container-4 .accordion__item{
+        width: 100% !important;
+    }
+    .title-4{
+        padding: 10px 30px;
+    }
+
+    .home-container-4 .right-part .img img{
+        margin: 0;
+    }
+
+    .home-container-6{
+        flex-direction: column;
+    }
+    .home-container-6 .left{
+        width: 100% !important;
+    }
+    .home-container-6 .left img{
+        width: 100% !important;
+    }
+
+    .home-container-6 .right{
+        width: 100% !important;
+    }
+
+    .home-container-7 .left{
+        display: none;
+        width: 0%;
+    }
+    .home-container-7 .right{
+        width: 100% !important;
+    }
+    .home-container-7 .right .item2 .card-container{
+        width: 100%;
+    }
+}
+
+
+  
+  
+  .home-container-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 30px;
+  }
+
+  .home-container-6 .left{
+    width: 50%;
+    height: 600px;
+    border-radius: 20px;
+
+  }
+
+  .home-container-6 .right{
+    width: 50%;
+  }
+
+  .home-container-6 .left img{
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 20px;
+  }
+
+  .home-container-6 .right h3{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+
+  .home-container-6 .button{
+    border: 2px solid #0f0136;
+    padding: 10px 30px;
+    background: transparent;
+    border-radius: 20px;
+    color: #0f0136;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+    margin-top: 20px;
+  }
+
+  .home-container-6 .button:hover{
+    background-color: #0f0136;
+    color: #f2f2f2;
+  }
+
+
+.slick-dots{
+    margin-top: 20px !important;
+}
+
+.slick-dots button::before{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    font-size: 8px !important;
+    color: #582ad6 !important;
+}
+
+.home-container-5{
+    text-align: center;
+}
+
+.home-container-7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 50px;
+    gap: 30px;
+}
+
+.home-container-7 .left{
+    width: 30%;
+}
+.home-container-7 .left h2{
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.home-container-7 .left p{
+    margin-top: 20px;
+}
+
+.home-container-7 .left button{
+    border: 2px solid #0f0136;
+    color: #0f0136;
+    font-weight: 500;
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.3s ease-in-out;;
+}
+
+.home-container-7 .left button:hover{
+    background-color: #0f0136;
+    color: #fff;
+}
+
+.home-container-7 .right{
+    width: 70%;
+}
+
+.item2{
+    width: 100%;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.item2 .card-container{
+    width: 100%;
+}

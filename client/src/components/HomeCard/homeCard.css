@@ -1,0 +1,25 @@
+.home-card-container{
+    background-color: rgb(240, 237, 237);
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.3);
+}
+.home-card-container:hover{
+    transform: scale(1.02);
+}
+
+.home-card-container h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.home-card-container p{
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 400;
+}
